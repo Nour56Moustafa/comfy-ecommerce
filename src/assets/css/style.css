@@ -441,7 +441,7 @@ aside .sidebar-cart {
 
 .concat .concat-content form {
   /* width: 90vh; */
-  max-width: 500px;
+  max-width: 450px;
   display: grid;
   grid-template-columns: 1fr auto;
 }
