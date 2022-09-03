@@ -441,8 +441,15 @@ aside .sidebar-cart {
 
 .concat .concat-content form {
   display: grid;
-  width: 25vh;
+  width: 80vh;
+  max-width: 500px;
   grid-template-columns: 1fr auto;
+}
+
+@media (min-width: 767px) {
+  .concat .concat-content form {
+    max-width: 500px;
+  }
 }
 
 .concat .concat-content form input {
@@ -466,6 +473,26 @@ aside .sidebar-cart {
   padding: 0.5rem 1rem;
   border: 2px solid var(--clr-black);
   transition: var(--transition);
+}
+
+@media (max-width: 767px) {
+  .concat .concat-content form {
+    display: grid;
+    width: 30vh;
+    grid-template-columns: 25vh auto;
+  }
+
+  .concat .concat-content form input {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    border: 1px solid var(--clr-black);
+  }
+
+  .concat .concat-content form button {
+    font-size: 0.8rem;
+    padding: 0.5rem;
+    border: 1px solid var(--clr-black);
+  }
 }
 
 .concat .concat-content form button:hover {
