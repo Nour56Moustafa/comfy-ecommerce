@@ -440,15 +440,20 @@ aside .sidebar-cart {
 }
 
 .concat .concat-content form {
-  width: 90vh;
-  max-width: 500px;
   display: grid;
   grid-template-columns: 1fr auto;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .concat .concat-content form {
-    width: calc(100vw - 75px);
+    width: 90vh;
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 767px) {
+  .concat .concat-content form {
+    width: 75vw;
   }
 }
 
