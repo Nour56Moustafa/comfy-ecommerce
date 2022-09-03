@@ -441,19 +441,8 @@ aside .sidebar-cart {
 
 .concat .concat-content form {
   display: grid;
+  width: 25vh;
   grid-template-columns: 1fr auto;
-}
-
-@media (min-width: 768px) {
-  .concat .concat-content form {
-    width: 50vh;
-  }
-}
-
-@media (max-width: 767px) {
-  .concat .concat-content form {
-    width: 25vh;
-  }
 }
 
 .concat .concat-content form input {
