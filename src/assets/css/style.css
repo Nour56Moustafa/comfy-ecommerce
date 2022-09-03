@@ -1287,7 +1287,7 @@ aside .sidebar-cart {
 
 @media (max-width: 767px) {
   .cart-item {
-    grid-template-columns: 200px 100px auto;
+    grid-template-columns: 195px 95px auto;
   }
 }
 
@@ -1365,6 +1365,10 @@ aside .sidebar-cart {
     width: 0.5rem;
     height: 0.5rem;
     border-radius: var(--radius);
+    -webkit-border-radius: var(--radius);
+    -moz-border-radius: var(--radius);
+    -ms-border-radius: var(--radius);
+    -o-border-radius: var(--radius);
   }
 }
 
@@ -1380,6 +1384,16 @@ aside .sidebar-cart {
   justify-content: center;
   border-radius: var(--radius);
   cursor: pointer;
+  -webkit-border-radius: var(--radius);
+  -moz-border-radius: var(--radius);
+  -ms-border-radius: var(--radius);
+  -o-border-radius: var(--radius);
+}
+
+@media (max-width: 767px) {
+  .cart-item .remove-btn {
+    margin-left: 5px;
+  }
 }
 /* End Of Cart Item */
 
