@@ -452,7 +452,7 @@ aside .sidebar-cart {
 
 @media (max-width: 767px) {
   .concat .concat-content form {
-    width: 75vw;
+    width: 25vh;
   }
 }
 
