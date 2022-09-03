@@ -1287,7 +1287,7 @@ aside .sidebar-cart {
 
 @media (max-width: 767px) {
   .cart-item {
-    grid-template-columns: 195px 95px auto;
+    grid-template-columns: 190px 90px auto;
   }
 }
 
@@ -1384,15 +1384,11 @@ aside .sidebar-cart {
   justify-content: center;
   border-radius: var(--radius);
   cursor: pointer;
-  -webkit-border-radius: var(--radius);
-  -moz-border-radius: var(--radius);
-  -ms-border-radius: var(--radius);
-  -o-border-radius: var(--radius);
 }
 
 @media (max-width: 767px) {
   .cart-item .remove-btn {
-    margin-left: 5px;
+    margin-left: 10px;
   }
 }
 /* End Of Cart Item */
