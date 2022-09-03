@@ -446,8 +446,7 @@ aside .sidebar-cart {
 
 @media (min-width: 768px) {
   .concat .concat-content form {
-    width: 90vh;
-    max-width: 500px;
+    width: 50vh;
   }
 }
 
