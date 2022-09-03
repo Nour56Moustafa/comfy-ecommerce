@@ -1728,7 +1728,7 @@ aside .sidebar-cart {
 
 @media (max-width: 767px) {
   .stripe-checkout form {
-    width: 80vw;
+    width: 80vw !important;
   }
 }
 
