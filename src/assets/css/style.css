@@ -1287,7 +1287,7 @@ aside .sidebar-cart {
 
 @media (max-width: 767px) {
   .cart-item {
-    grid-template-columns: 220px 120px auto;
+    grid-template-columns: 200px 100px auto;
   }
 }
 
